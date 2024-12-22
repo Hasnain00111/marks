@@ -70,9 +70,41 @@ console.log(books);
   evennumbers.splice(2,3,12,14)
   console.log(evennumbers);
   
+// intorduction of function
+function myFunction() {
+   console.log("Hi!i am Hasnain Ahmed");
+   console.log("i am going to leran js");
+   }
+myFunction();
+myFunction();
 
-
-
-
-
-
+function thatIsGreat() {
+   console.log("i want to become a fullstack developer");
+   console.log("i want to become a problem solving person");
+   
+}
+ function thatIs(tip) {
+   // parameter = input
+   console.log(tip);
+ }
+   thatIs("i am passionate to learn js");
+   // function 
+   function addation(a,b) {
+      console.log(a+b);
+   }
+addation (2,8)
+addation(10,40)
+// sum function
+function ad(a,b) {
+   return a+b;
+}
+const arrowSum = (a,b) => {
+   console.log(a+b);
+   
+} 
+arrowSum(44+4)
+// multip
+function mul(a,b) {
+   return a*b
+}
+mul(2*15)
