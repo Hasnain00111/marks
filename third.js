@@ -108,3 +108,14 @@ function mul(a,b) {
    return a*b
 }
 mul(2*15)
+
+
+const item = [
+   {name: "bulb", price: 100},
+   {name: "album", price: 1500},
+   {name:"book",price: 500},
+   {name: "computer",price:1000},
+   {name: "phone",price:15000},
+   {name: "fridge", price:40000}
+];
+console.table(item)
