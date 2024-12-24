@@ -302,3 +302,46 @@ let name = ["ahmed","ali","khan","hasnain"]
 let profession = ["marketing","desinging","developer","cyber security"]
 let des = name.concat(profession);
 console.table(des);
+  
+
+// practice of array method 
+
+// push method in array = push method is used to add a element in the array . the element is add in last postion.
+let pakistaniactors = [
+   {name:"wahaj ali", followers:449945768},
+   {name:"danish tumoor", followers:7689947897},
+   {name:"farooz khan", followers:7856868355478},
+   {name:"ahad raza", followers:7878678463}
+];
+console.table(pakistaniactors);
+
+// pop: pop method is used to remove last element form the array 
+let bollywoodactors = [
+   {name:"thor", followers:77666775},
+
+]
+
+// let's practice
+// Q=1.Create a const object called "product" to store information shown in the picture.
+ 
+const product = {
+   name:"ball pen",
+   rating: 4,
+   offer: 5,
+   price: 200
+};
+console.log(product);
+
+// let's practice
+// Q=2. create a const object called "profile" to store information in the picture.
+const profile = {
+   tittle:"shradhakhapara",
+   isFollow:"true",
+   message:"i am writing a code",
+   post: 195,
+   followers:569,
+   following:4,
+   email: "shrada@gmail.com"
+
+} 
+console.log(profile);
