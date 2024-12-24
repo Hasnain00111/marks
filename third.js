@@ -345,3 +345,19 @@ const profile = {
 
 } 
 console.log(profile);
+
+// object
+const UserName = {
+   name:"ahmed",
+   age:16,
+   islogedin:false,
+   location:"gilgit",
+   nationality:"pakistani"
+
+   
+}
+
+console.log(UserName);
+console.log(UserName.name);
+console.log(UserName["age"]);
+console.log(UserName["islogedin"]);
