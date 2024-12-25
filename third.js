@@ -361,3 +361,40 @@ console.log(UserName);
 console.log(UserName.name);
 console.log(UserName["age"]);
 console.log(UserName["islogedin"]);
+
+
+// arthmituic operators 
+let d = 4;
+let e = 7;
+let c = d+e;
+ console.log(c);
+
+ console.log("e = " ,e,"& d = ",d);
+ console.log("e+d = ",e+d);
+ console.log("e-d = ",e-d);
+ console.log("e*d=", e*d);
+ 
+
+
+ let x = 2;
+ let s = 4;
+ let z = x + s;
+ console.log(z)
+console.log("x+s = ",x+s)
+console.log("x-s = ",x-s);
+console.log("x*s = ",x*s);
+console.log("x/s = ",x/s)
+console.log("x % s = ",x%s);
+
+console.log("x**s =",x**s)
+
+// unary operators
+
+let b = 3;
+console.log("a = ",a++)
+
+
+ 
+ 
+ 
+
