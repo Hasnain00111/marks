@@ -1,4 +1,4 @@
-let marks =[50,40,20];
+/*let marks =[50,40,20];
 console.log(marks);
  let heroes = ["ironman","ramcharan","yash","bilal"]
  console.log(heroes[0]);
@@ -391,10 +391,24 @@ console.log("x**s =",x**s)
 // unary operators
 
 let b = 3;
-console.log("a = ",a++)
+b++;
+console.log("b = ",b)
 
+ let v = 3;
 
+ v--;
+ console.log("v = ",v);*/
+
+ let a = 4;
+
+ let b = 3;
  
+ console.log("a = ", a,"& b = ",b );
+ console.log("a++ = ", a++);// it show post increment a++;
+ console.log("a = ",a);
+ 
+ console.log("++a = ",a);// it pre increment the value. it direct show the value of ++a = 5
+
  
  
 
