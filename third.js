@@ -397,7 +397,7 @@ console.log("b = ",b)
  let v = 3;
 
  v--;
- console.log("v = ",v);*/
+ console.log("v = ",v);
 
  let a = 4;
 
@@ -407,8 +407,109 @@ console.log("b = ",b)
  console.log("a++ = ", a++);// it show post increment a++;
  console.log("a = ",a);
  
- console.log("++a = ",a);// it pre increment the value. it direct show the value of ++a = 5
+ console.log("++a = ",a);// it pre increment the value. it direct show the value of ++a = 5*/
+ /*let x = 4;
+ let y = 2;
+  console.log("x++ = ",x++);//it doesn't print the sum of the value , first it print the actual value of "v" then it prints the sum value of v.
+ console.log("x = ",x)
 
+ console.log("++x = ",x) // it directly print the sum value of x.
+
+
+ let a = 4; 
+ let b = 3;
+ console.log("a = ",++a);
+console.log("b = ",++b);
+
+
+let p = 5;
+console.log("p = ",--p)
+
+console.log("p = ",p--)
+
+
+let c = 4;
+c -= 4;// c = c-4
+console.log("c = ",c); */
+
+/*let a = 3;
+let b = 4;
+let num1 = a<b;
+let num2 = a==b;
+console.log("cond1 || cond2 =", a>b || a==b);
+console.log("!(3>4) = ", !(a==4))
+
+// conditional statements
+let age = 20;
+if (age > 18) { console.log("you can vote");
+}
+ let price = 500;
+ if (price > 600){console.log("you can purchase mobile cover")}
+
+ let fee = 1000;
+ if (fee >1300){console.log("you can subbit your forms");
+ }
+ let marks = 400;
+ if(marks>30000){console.log("you can go next class");
+ }
+
+let mode = "light"
  
+ if(mode === "dark mode"){
+   color = "black";
+ }else{
+   color = "white"
+ }
+console.log(color);*/
+
+
+let age = 20;
+if (age >= 18){
+   console.log("vote")
+}else{
+   console.log("not vote");
+   
+}
+
+let a = 20;
+if (a%2 ===0){
+   console.log("even")
+}else{
+   console.log(odd);
+   
+}
+
+
+let c = 43;
+ if (c%2 ===0 ){
+   console.log("even")
+ }else{
+console.log("odd");
+
+ }
+
+ let passmarks = 40;
+ if(passmarks <59){
+   console.log("pass")
+ }else{
+   console.log("fail")
+ }
+
+
+ let mode = "dark";
+ let color;
+ if (mode=== "dark"){
+   color = "black"
+ }else if (mode === "blue"){
+   color="blue";
+ }else if (mode === "pink"){
+   color = "pink";
+ }else {
+   color = "white"
+ }
+
+console.log(color);
+
+
  
 
